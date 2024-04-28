@@ -1,0 +1,6 @@
+Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/michael/ros2_ws/src/data -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/data
+Invoked command in '/home/michael/ros2_ws/build/data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/michael/ros2_ws/src/data -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/data
+Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+Invoked command in '/home/michael/ros2_ws/build/data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/data
+Invoked command in '/home/michael/ros2_ws/build/data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/data

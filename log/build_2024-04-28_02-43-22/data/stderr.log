@@ -1,0 +1,12 @@
+[01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:18:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   18 |     void topic_callback(const std_msgs::msg::Float32 & msg) [01;31m[Kconst[m[K
+      |                                                             [01;31m[K^~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:13:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   13 |       [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Float32>(
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/data_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

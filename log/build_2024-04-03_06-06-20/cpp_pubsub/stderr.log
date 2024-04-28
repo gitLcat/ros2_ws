@@ -1,0 +1,44 @@
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:44:1:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   44 | 
+      | [01;31m[K^[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   29 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),message.data;
+      |                  [01;31m[K^[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:15:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   15 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18:34:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   18 |     : Node("minimal_publisher"), [01;31m[Kcount_[m[K(0)
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   20 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int32>("topic", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   21 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Ktimer_t[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:28:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   28 |       [01;31m[Kmessage[m[K.data = count_++;
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:28:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_[m[K’ was not declared in this scope
+   28 |       message.data = [01;31m[Kcount_[m[K++;
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   29 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),message.data;
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   29 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),message.data;
+      |                  [01;31m[K^[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:27:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   27 |     [01;36m[K{[m[K
+      |     [01;36m[K^[m[K
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K At global scope:
+[01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:18:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   29 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),message.data;
+      |                  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

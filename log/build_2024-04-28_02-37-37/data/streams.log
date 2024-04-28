@@ -1,0 +1,45 @@
+[0.123s] Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+[0.167s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.194s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/data_sub.cpp.o[0m
+[2.343s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:22:41:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.343s]    22 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr subscription_;
+[2.343s]       |                                         [01;31m[K^~~~~~[m[K
+[2.343s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:22:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.344s]    22 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+[2.344s]       |                                               [01;31m[K^[m[K
+[2.344s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:22:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.344s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:22:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[2.344s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:22:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[2.344s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:22:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.344s]    22 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+[2.344s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.344s]       |                                                           [32m[K;[m[K
+[2.345s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:22:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[2.345s]    22 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+[2.345s]       |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[2.345s]       |                                                            [32m[Krmw_subscription_t[m[K
+[2.352s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[2.353s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:13:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[2.353s]    13 |       [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Float32>(
+[2.353s]       |       [01;31m[K^~~~~~~~~~~~~[m[K
+[2.353s]       |       [32m[Krmw_subscription_t[m[K
+[2.398s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.398s]                  from [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:3[m[K:
+[2.399s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Float32&) const[m[K’:
+[2.399s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:20:65:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.std_msgs::msg::Float32_<std::allocator<void> >::data[m[K’, which is of non-class type ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst float[m[K’}
+[2.399s]    20 |       RCLCPP_INFO(this->get_logger(), "I heard: '%f'", msg.data.[01;31m[Kc_str[m[K());
+[2.399s]       |                                                                 [01;31m[K^~~~~[m[K
+[4.477s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/data_sub.cpp.o] Error 1
+[4.477s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[4.477s] gmake: *** [Makefile:146: all] Error 2
+[4.479s] Invoked command in '/home/michael/ros2_ws/build/data' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4

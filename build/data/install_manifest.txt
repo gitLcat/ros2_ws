@@ -1,0 +1,16 @@
+/home/michael/ros2_ws/install/data/lib/data/talker
+/home/michael/ros2_ws/install/data/share/ament_index/resource_index/package_run_dependencies/data
+/home/michael/ros2_ws/install/data/share/ament_index/resource_index/parent_prefix_path/data
+/home/michael/ros2_ws/install/data/share/data/environment/ament_prefix_path.sh
+/home/michael/ros2_ws/install/data/share/data/environment/ament_prefix_path.dsv
+/home/michael/ros2_ws/install/data/share/data/environment/path.sh
+/home/michael/ros2_ws/install/data/share/data/environment/path.dsv
+/home/michael/ros2_ws/install/data/share/data/local_setup.bash
+/home/michael/ros2_ws/install/data/share/data/local_setup.sh
+/home/michael/ros2_ws/install/data/share/data/local_setup.zsh
+/home/michael/ros2_ws/install/data/share/data/local_setup.dsv
+/home/michael/ros2_ws/install/data/share/data/package.dsv
+/home/michael/ros2_ws/install/data/share/ament_index/resource_index/packages/data
+/home/michael/ros2_ws/install/data/share/data/cmake/dataConfig.cmake
+/home/michael/ros2_ws/install/data/share/data/cmake/dataConfig-version.cmake
+/home/michael/ros2_ws/install/data/share/data/package.xml

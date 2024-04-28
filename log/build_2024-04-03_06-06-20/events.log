@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000426] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000453] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.062669] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.063279] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.063991] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/michael/ros2_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/michael/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'michael'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michael'), ('OLDPWD', '/home/michael/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1924'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michael/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/michael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/michael:@/tmp/.ICE-unix/1758,unix/michael:/tmp/.ICE-unix/1758'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/53078c52_43d5_484b_a6f8_86eee3694c87'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UR2BL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.215'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/michael/ros2_ws/install/cpp_pubsub:/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michael/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/michael/ros2_ws/install/cpp_pubsub:/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.099682] (-) TimerEvent: {}
+[0.104367] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.122858] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.199775] (-) TimerEvent: {}
+[0.296411] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:44:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated argument list invoking macro "RCLCPP_INFO"\n'}
+[0.296627] (cpp_pubsub) StderrLine: {'line': b'   44 | \n'}
+[0.296720] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.299864] (-) TimerEvent: {}
+[0.400134] (-) TimerEvent: {}
+[0.500416] (-) TimerEvent: {}
+[0.600706] (-) TimerEvent: {}
+[0.701041] (-) TimerEvent: {}
+[0.801376] (-) TimerEvent: {}
+[0.901693] (-) TimerEvent: {}
+[1.002007] (-) TimerEvent: {}
+[1.102314] (-) TimerEvent: {}
+[1.202627] (-) TimerEvent: {}
+[1.302942] (-) TimerEvent: {}
+[1.403253] (-) TimerEvent: {}
+[1.503539] (-) TimerEvent: {}
+[1.603900] (-) TimerEvent: {}
+[1.704193] (-) TimerEvent: {}
+[1.804540] (-) TimerEvent: {}
+[1.904867] (-) TimerEvent: {}
+[2.005227] (-) TimerEvent: {}
+[2.105608] (-) TimerEvent: {}
+[2.205942] (-) TimerEvent: {}
+[2.251188] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[2.251395] (cpp_pubsub) StderrLine: {'line': b'   29 |       RCLCPP_INFO\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthis->get_logger(),message.data;\n'}
+[2.251483] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.251564] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:15:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.251695] (cpp_pubsub) StderrLine: {'line': b'   15 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.251768] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.251839] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.251918] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kcount_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.251992] (cpp_pubsub) StderrLine: {'line': b'   18 |     : Node("minimal_publisher"), \x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K(0)\n'}
+[2.252066] (cpp_pubsub) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.258334] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:20:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.258531] (cpp_pubsub) StderrLine: {'line': b'   20 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Int32>("topic", 10);\n'}
+[2.258616] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.258687] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.267115] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:21:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.267308] (cpp_pubsub) StderrLine: {'line': b'   21 |       \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(\n'}
+[2.267389] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.267462] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[2.280692] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.280934] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:28:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.281017] (cpp_pubsub) StderrLine: {'line': b'   28 |       \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.data = count_++;\n'}
+[2.281087] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.285736] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:28:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcount_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.285926] (cpp_pubsub) StderrLine: {'line': b'   28 |       message.data = \x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K++;\n'}
+[2.286004] (cpp_pubsub) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.292336] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.292553] (cpp_pubsub) StderrLine: {'line': b'   29 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(),message.data;\n'}
+[2.292633] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.292702] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[2.292771] (cpp_pubsub) StderrLine: {'line': b'   29 |       RCLCPP_INFO\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthis->get_logger(),message.data;\n'}
+[2.292837] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.292901] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:27:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.292981] (cpp_pubsub) StderrLine: {'line': b'   27 |     \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.293048] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.293113] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.293180] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[2.293256] (cpp_pubsub) StderrLine: {'line': b'   29 |       RCLCPP_INFO\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthis->get_logger(),message.data;\n'}
+[2.293321] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.306070] (-) TimerEvent: {}
+[2.406410] (-) TimerEvent: {}
+[2.506725] (-) TimerEvent: {}
+[2.607071] (-) TimerEvent: {}
+[2.707424] (-) TimerEvent: {}
+[2.807697] (-) TimerEvent: {}
+[2.907978] (-) TimerEvent: {}
+[2.953108] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[2.953391] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.953624] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.955110] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[3.008329] (-) TimerEvent: {}
+[3.040641] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[3.051315] (-) EventReactorShutdown: {}

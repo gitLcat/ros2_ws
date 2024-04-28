@@ -1,0 +1,4 @@
+source;share/scanner/local_setup.bash
+source;share/scanner/local_setup.dsv
+source;share/scanner/local_setup.sh
+source;share/scanner/local_setup.zsh

@@ -1,0 +1,42 @@
+[0.119s] Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/michael/ros2_ws/src/data -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/data
+[0.268s] -- The C compiler identification is GNU 11.4.0
+[0.375s] -- The CXX compiler identification is GNU 11.4.0
+[0.386s] -- Detecting C compiler ABI info
+[0.520s] -- Detecting C compiler ABI info - done
+[0.533s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.539s] -- Detecting C compile features
+[0.541s] -- Detecting C compile features - done
+[0.545s] -- Detecting CXX compiler ABI info
+[0.828s] -- Detecting CXX compiler ABI info - done
+[0.840s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.842s] -- Detecting CXX compile features
+[0.843s] -- Detecting CXX compile features - done
+[0.857s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.321s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.584s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.809s] -- Added test 'lint_cmake' to check CMake code style
+[1.811s] -- Added test 'xmllint' to check XML markup files
+[1.813s] -- Configuring done
+[1.820s] -- Generating done
+[1.822s] -- Build files have been written to: /home/michael/ros2_ws/build/data
+[1.838s] Invoked command in '/home/michael/ros2_ws/build/data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/michael/ros2_ws/src/data -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/data
+[1.839s] Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+[1.955s] Invoked command in '/home/michael/ros2_ws/build/data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+[2.168s] Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/data
+[2.181s] -- Install configuration: ""
+[2.181s] -- Installing: /home/michael/ros2_ws/install/data/share/ament_index/resource_index/package_run_dependencies/data
+[2.182s] -- Installing: /home/michael/ros2_ws/install/data/share/ament_index/resource_index/parent_prefix_path/data
+[2.182s] -- Installing: /home/michael/ros2_ws/install/data/share/data/environment/ament_prefix_path.sh
+[2.183s] -- Installing: /home/michael/ros2_ws/install/data/share/data/environment/ament_prefix_path.dsv
+[2.183s] -- Installing: /home/michael/ros2_ws/install/data/share/data/environment/path.sh
+[2.183s] -- Installing: /home/michael/ros2_ws/install/data/share/data/environment/path.dsv
+[2.184s] -- Installing: /home/michael/ros2_ws/install/data/share/data/local_setup.bash
+[2.184s] -- Installing: /home/michael/ros2_ws/install/data/share/data/local_setup.sh
+[2.184s] -- Installing: /home/michael/ros2_ws/install/data/share/data/local_setup.zsh
+[2.185s] -- Installing: /home/michael/ros2_ws/install/data/share/data/local_setup.dsv
+[2.185s] -- Installing: /home/michael/ros2_ws/install/data/share/data/package.dsv
+[2.185s] -- Installing: /home/michael/ros2_ws/install/data/share/ament_index/resource_index/packages/data
+[2.185s] -- Installing: /home/michael/ros2_ws/install/data/share/data/cmake/dataConfig.cmake
+[2.185s] -- Installing: /home/michael/ros2_ws/install/data/share/data/cmake/dataConfig-version.cmake
+[2.185s] -- Installing: /home/michael/ros2_ws/install/data/share/data/package.xml
+[2.192s] Invoked command in '/home/michael/ros2_ws/build/data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/data

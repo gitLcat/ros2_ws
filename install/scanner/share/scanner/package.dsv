@@ -1,0 +1,8 @@
+source;share/scanner/hook/cmake_prefix_path.ps1
+source;share/scanner/hook/cmake_prefix_path.dsv
+source;share/scanner/hook/cmake_prefix_path.sh
+source;share/scanner/local_setup.bash
+source;share/scanner/local_setup.dsv
+source;share/scanner/local_setup.ps1
+source;share/scanner/local_setup.sh
+source;share/scanner/local_setup.zsh

@@ -1,0 +1,10 @@
+/home/michael/ros2_ws/build/data/CMakeFiles/uninstall.dir
+/home/michael/ros2_ws/build/data/CMakeFiles/data_uninstall.dir
+/home/michael/ros2_ws/build/data/CMakeFiles/talker.dir
+/home/michael/ros2_ws/build/data/CMakeFiles/test.dir
+/home/michael/ros2_ws/build/data/CMakeFiles/edit_cache.dir
+/home/michael/ros2_ws/build/data/CMakeFiles/rebuild_cache.dir
+/home/michael/ros2_ws/build/data/CMakeFiles/list_install_components.dir
+/home/michael/ros2_ws/build/data/CMakeFiles/install.dir
+/home/michael/ros2_ws/build/data/CMakeFiles/install/local.dir
+/home/michael/ros2_ws/build/data/CMakeFiles/install/strip.dir

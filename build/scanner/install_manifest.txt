@@ -1,0 +1,16 @@
+/home/michael/ros2_ws/install/scanner/lib/scanner/talker
+/home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/package_run_dependencies/scanner
+/home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/parent_prefix_path/scanner
+/home/michael/ros2_ws/install/scanner/share/scanner/environment/ament_prefix_path.sh
+/home/michael/ros2_ws/install/scanner/share/scanner/environment/ament_prefix_path.dsv
+/home/michael/ros2_ws/install/scanner/share/scanner/environment/path.sh
+/home/michael/ros2_ws/install/scanner/share/scanner/environment/path.dsv
+/home/michael/ros2_ws/install/scanner/share/scanner/local_setup.bash
+/home/michael/ros2_ws/install/scanner/share/scanner/local_setup.sh
+/home/michael/ros2_ws/install/scanner/share/scanner/local_setup.zsh
+/home/michael/ros2_ws/install/scanner/share/scanner/local_setup.dsv
+/home/michael/ros2_ws/install/scanner/share/scanner/package.dsv
+/home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/packages/scanner
+/home/michael/ros2_ws/install/scanner/share/scanner/cmake/scannerConfig.cmake
+/home/michael/ros2_ws/install/scanner/share/scanner/cmake/scannerConfig-version.cmake
+/home/michael/ros2_ws/install/scanner/share/scanner/package.xml

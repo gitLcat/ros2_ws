@@ -1,0 +1,9 @@
+[0.120s] Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+[0.137s] [31mCMake Error at CMakeLists.txt:4:
+[0.137s]   Parse error.  Expected "(", got identifier with text "to".
+[0.137s] 
+[0.137s] [0m
+[0.137s] -- Configuring incomplete, errors occurred!
+[0.137s] See also "/home/michael/ros2_ws/build/data/CMakeFiles/CMakeOutput.log".
+[0.138s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.140s] Invoked command in '/home/michael/ros2_ws/build/data' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4

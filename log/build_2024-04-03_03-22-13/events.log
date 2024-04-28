@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000281] (scanner) JobQueued: {'identifier': 'scanner', 'dependencies': OrderedDict()}
+[0.000331] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000620] (scanner) JobStarted: {'identifier': 'scanner'}
+[0.063707] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.099835] (-) TimerEvent: {}
+[0.130374] (scanner) JobProgress: {'identifier': 'scanner', 'progress': 'cmake'}
+[0.130980] (scanner) JobProgress: {'identifier': 'scanner', 'progress': 'build'}
+[0.131634] (scanner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/michael/ros2_ws/build/scanner', '--', '-j4', '-l4'], 'cwd': '/home/michael/ros2_ws/build/scanner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'michael'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michael'), ('OLDPWD', '/home/michael/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '11629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michael/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/michael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/michael:@/tmp/.ICE-unix/1758,unix/michael:/tmp/.ICE-unix/1758'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f756fada_3f60_4fde_a565_4184cebf996e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UR2BL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.215'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michael/ros2_ws/build/scanner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.135119] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.135737] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.136001] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/michael/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/michael/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'michael'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michael'), ('OLDPWD', '/home/michael/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '11629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michael/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/michael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/michael:@/tmp/.ICE-unix/1758,unix/michael:/tmp/.ICE-unix/1758'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f756fada_3f60_4fde_a565_4184cebf996e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UR2BL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.215'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michael/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.185844] (scanner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/scan_data.cpp.o\x1b[0m\n'}
+[0.191026] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[0.197391] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[0.199939] (-) TimerEvent: {}
+[0.207729] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.290603] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[0.299078] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/michael/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/michael/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'michael'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michael'), ('OLDPWD', '/home/michael/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '11629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michael/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/michael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/michael:@/tmp/.ICE-unix/1758,unix/michael:/tmp/.ICE-unix/1758'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f756fada_3f60_4fde_a565_4184cebf996e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UR2BL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.215'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michael/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.300261] (-) TimerEvent: {}
+[0.306532] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.306956] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.307495] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[0.307646] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[0.307809] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[0.307969] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[0.308120] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[0.308280] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[0.308440] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[0.308892] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[0.309056] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[0.309205] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[0.309350] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[0.309488] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[0.309702] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[0.309846] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[0.309985] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[0.310121] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[0.310256] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[0.310390] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[0.310524] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[0.310670] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[0.311682] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[0.312027] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[0.312317] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[0.312588] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[0.312997] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[0.313436] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[0.313770] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[0.314133] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[0.314461] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[0.314788] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.315099] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.315416] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[0.315727] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[0.316039] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[0.316364] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[0.316700] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[0.317032] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[0.317468] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[0.326425] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[0.327110] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.327657] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.328161] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[0.328568] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[0.329098] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/michael/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[0.331484] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.400385] (-) TimerEvent: {}
+[0.500715] (-) TimerEvent: {}
+[0.516363] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[0.600890] (-) TimerEvent: {}
+[0.701208] (-) TimerEvent: {}
+[0.801542] (-) TimerEvent: {}
+[0.901863] (-) TimerEvent: {}
+[1.002193] (-) TimerEvent: {}
+[1.102490] (-) TimerEvent: {}
+[1.202822] (-) TimerEvent: {}
+[1.303179] (-) TimerEvent: {}
+[1.403519] (-) TimerEvent: {}
+[1.503821] (-) TimerEvent: {}
+[1.604160] (-) TimerEvent: {}
+[1.704474] (-) TimerEvent: {}
+[1.804813] (-) TimerEvent: {}
+[1.905175] (-) TimerEvent: {}
+[2.005464] (-) TimerEvent: {}
+[2.105804] (-) TimerEvent: {}
+[2.206196] (-) TimerEvent: {}
+[2.306572] (-) TimerEvent: {}
+[2.406949] (-) TimerEvent: {}
+[2.507299] (-) TimerEvent: {}
+[2.607680] (-) TimerEvent: {}
+[2.708032] (-) TimerEvent: {}
+[2.808369] (-) TimerEvent: {}
+[2.908692] (-) TimerEvent: {}
+[3.008994] (-) TimerEvent: {}
+[3.109279] (-) TimerEvent: {}
+[3.209565] (-) TimerEvent: {}
+[3.309878] (-) TimerEvent: {}
+[3.410200] (-) TimerEvent: {}
+[3.510516] (-) TimerEvent: {}
+[3.610844] (-) TimerEvent: {}
+[3.711182] (-) TimerEvent: {}
+[3.811522] (-) TimerEvent: {}
+[3.911852] (-) TimerEvent: {}
+[4.012199] (-) TimerEvent: {}
+[4.112509] (-) TimerEvent: {}
+[4.212815] (-) TimerEvent: {}
+[4.313160] (-) TimerEvent: {}
+[4.413493] (-) TimerEvent: {}
+[4.513824] (-) TimerEvent: {}
+[4.614183] (-) TimerEvent: {}
+[4.714500] (-) TimerEvent: {}
+[4.814839] (-) TimerEvent: {}
+[4.915213] (-) TimerEvent: {}
+[5.015537] (-) TimerEvent: {}
+[5.115870] (-) TimerEvent: {}
+[5.216167] (-) TimerEvent: {}
+[5.316478] (-) TimerEvent: {}
+[5.416785] (-) TimerEvent: {}
+[5.517096] (-) TimerEvent: {}
+[5.617373] (-) TimerEvent: {}
+[5.717695] (-) TimerEvent: {}
+[5.817966] (-) TimerEvent: {}
+[5.918244] (-) TimerEvent: {}
+[6.018548] (-) TimerEvent: {}
+[6.118854] (-) TimerEvent: {}
+[6.219161] (-) TimerEvent: {}
+[6.319464] (-) TimerEvent: {}
+[6.419784] (-) TimerEvent: {}
+[6.520103] (-) TimerEvent: {}
+[6.620429] (-) TimerEvent: {}
+[6.720701] (-) TimerEvent: {}
+[6.820976] (-) TimerEvent: {}
+[6.921266] (-) TimerEvent: {}
+[7.021570] (-) TimerEvent: {}
+[7.121839] (-) TimerEvent: {}
+[7.222113] (-) TimerEvent: {}
+[7.322433] (-) TimerEvent: {}
+[7.422776] (-) TimerEvent: {}
+[7.523084] (-) TimerEvent: {}
+[7.623412] (-) TimerEvent: {}
+[7.723724] (-) TimerEvent: {}
+[7.824075] (-) TimerEvent: {}
+[7.924427] (-) TimerEvent: {}
+[7.978011] (scanner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[8.024627] (-) TimerEvent: {}
+[8.125124] (-) TimerEvent: {}
+[8.225562] (-) TimerEvent: {}
+[8.325886] (-) TimerEvent: {}
+[8.345797] (scanner) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[8.360340] (scanner) CommandEnded: {'returncode': 0}
+[8.385385] (scanner) JobProgress: {'identifier': 'scanner', 'progress': 'install'}
+[8.385681] (scanner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/michael/ros2_ws/build/scanner'], 'cwd': '/home/michael/ros2_ws/build/scanner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'michael'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michael'), ('OLDPWD', '/home/michael/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '11629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michael/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/michael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/michael:@/tmp/.ICE-unix/1758,unix/michael:/tmp/.ICE-unix/1758'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f756fada_3f60_4fde_a565_4184cebf996e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UR2BL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.215'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michael/ros2_ws/build/scanner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/michael/ros2_ws/install/scanner:/home/michael/ros2_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[8.393297] (scanner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.393509] (scanner) StdoutLine: {'line': b'-- Installing: /home/michael/ros2_ws/install/scanner/lib/scanner/talker\n'}
+[8.396723] (scanner) StdoutLine: {'line': b'-- Set runtime path of "/home/michael/ros2_ws/install/scanner/lib/scanner/talker" to ""\n'}
+[8.397009] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/package_run_dependencies/scanner\n'}
+[8.397312] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/parent_prefix_path/scanner\n'}
+[8.397463] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/environment/ament_prefix_path.sh\n'}
+[8.397591] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/environment/ament_prefix_path.dsv\n'}
+[8.397717] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/environment/path.sh\n'}
+[8.397842] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/environment/path.dsv\n'}
+[8.398050] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.bash\n'}
+[8.398171] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.sh\n'}
+[8.398291] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.zsh\n'}
+[8.398410] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.dsv\n'}
+[8.398529] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/package.dsv\n'}
+[8.398649] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/packages/scanner\n'}
+[8.398771] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/cmake/scannerConfig.cmake\n'}
+[8.398892] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/cmake/scannerConfig-version.cmake\n'}
+[8.399019] (scanner) StdoutLine: {'line': b'-- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/package.xml\n'}
+[8.400054] (scanner) CommandEnded: {'returncode': 0}
+[8.425976] (-) TimerEvent: {}
+[8.526568] (-) TimerEvent: {}
+[8.532552] (scanner) JobEnded: {'identifier': 'scanner', 'rc': 0}
+[8.533319] (-) EventReactorShutdown: {}

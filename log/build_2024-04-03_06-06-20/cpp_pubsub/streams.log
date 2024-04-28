@@ -1,0 +1,48 @@
+[0.066s] Invoking command in '/home/michael/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.123s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.296s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:44:1:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.296s]    44 | 
+[0.296s]       | [01;31m[K^[m[K
+[2.251s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.251s]    29 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),message.data;
+[2.251s]       |                  [01;31m[K^[m[K
+[2.251s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:15:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.251s]    15 | [01;36m[K{[m[K
+[2.251s]       | [01;36m[K^[m[K
+[2.251s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.252s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18:34:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[2.252s]    18 |     : Node("minimal_publisher"), [01;31m[Kcount_[m[K(0)
+[2.252s]       |                                  [01;31m[K^~~~~~[m[K
+[2.258s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.258s]    20 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int32>("topic", 10);
+[2.258s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.258s]       |       [32m[Krmw_publisher_t[m[K
+[2.267s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[2.267s]    21 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[2.267s]       |       [01;31m[K^~~~~~[m[K
+[2.267s]       |       [32m[Ktimer_t[m[K
+[2.280s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.281s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:28:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[2.281s]    28 |       [01;31m[Kmessage[m[K.data = count_++;
+[2.281s]       |       [01;31m[K^~~~~~~[m[K
+[2.285s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:28:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_[m[K’ was not declared in this scope
+[2.286s]    28 |       message.data = [01;31m[Kcount_[m[K++;
+[2.286s]       |                      [01;31m[K^~~~~~[m[K
+[2.292s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[2.292s]    29 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),message.data;
+[2.292s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.292s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.292s]    29 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),message.data;
+[2.292s]       |                  [01;31m[K^[m[K
+[2.292s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:27:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.293s]    27 |     [01;36m[K{[m[K
+[2.293s]       |     [01;36m[K^[m[K
+[2.293s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K At global scope:
+[2.293s] [01m[K/home/michael/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:18:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.293s]    29 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),message.data;
+[2.293s]       |                  [01;31m[K^[m[K
+[2.953s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.953s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[2.953s] gmake: *** [Makefile:146: all] Error 2
+[2.955s] Invoked command in '/home/michael/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/cpp_pubsub -- -j4 -l4

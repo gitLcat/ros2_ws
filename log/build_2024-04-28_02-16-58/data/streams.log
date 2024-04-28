@@ -1,0 +1,26 @@
+[0.121s] Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target sub[0m
+[0.177s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/data_sub.cpp.o[0m
+[7.752s] [100%] [32m[1mLinking CXX executable sub[0m
+[8.101s] [100%] Built target sub
+[8.111s] Invoked command in '/home/michael/ros2_ws/build/data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+[8.134s] Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/data
+[8.142s] -- Install configuration: ""
+[8.142s] -- Installing: /home/michael/ros2_ws/install/data/lib/data/sub
+[8.146s] -- Set runtime path of "/home/michael/ros2_ws/install/data/lib/data/sub" to ""
+[8.146s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/ament_index/resource_index/package_run_dependencies/data
+[8.146s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/ament_index/resource_index/parent_prefix_path/data
+[8.146s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/environment/ament_prefix_path.sh
+[8.146s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/environment/ament_prefix_path.dsv
+[8.146s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/environment/path.sh
+[8.147s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/environment/path.dsv
+[8.147s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/local_setup.bash
+[8.147s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/local_setup.sh
+[8.147s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/local_setup.zsh
+[8.147s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/local_setup.dsv
+[8.147s] -- Installing: /home/michael/ros2_ws/install/data/share/data/package.dsv
+[8.147s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/ament_index/resource_index/packages/data
+[8.147s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/cmake/dataConfig.cmake
+[8.147s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/cmake/dataConfig-version.cmake
+[8.147s] -- Up-to-date: /home/michael/ros2_ws/install/data/share/data/package.xml
+[8.148s] Invoked command in '/home/michael/ros2_ws/build/data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/data

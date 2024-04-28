@@ -1,0 +1,25 @@
+[0.133s] Invoking command in '/home/michael/ros2_ws/build/scanner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/scanner -- -j4 -l4
+[0.185s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/scan_data.cpp.o[0m
+[7.978s] [100%] [32m[1mLinking CXX executable talker[0m
+[8.345s] [100%] Built target talker
+[8.361s] Invoked command in '/home/michael/ros2_ws/build/scanner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/scanner -- -j4 -l4
+[8.386s] Invoking command in '/home/michael/ros2_ws/build/scanner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/scanner
+[8.393s] -- Install configuration: ""
+[8.393s] -- Installing: /home/michael/ros2_ws/install/scanner/lib/scanner/talker
+[8.396s] -- Set runtime path of "/home/michael/ros2_ws/install/scanner/lib/scanner/talker" to ""
+[8.397s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/package_run_dependencies/scanner
+[8.397s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/parent_prefix_path/scanner
+[8.397s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/environment/ament_prefix_path.sh
+[8.397s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/environment/ament_prefix_path.dsv
+[8.397s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/environment/path.sh
+[8.397s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/environment/path.dsv
+[8.397s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.bash
+[8.398s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.sh
+[8.398s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.zsh
+[8.398s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.dsv
+[8.398s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/package.dsv
+[8.398s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/packages/scanner
+[8.398s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/cmake/scannerConfig.cmake
+[8.398s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/cmake/scannerConfig-version.cmake
+[8.398s] -- Up-to-date: /home/michael/ros2_ws/install/scanner/share/scanner/package.xml
+[8.400s] Invoked command in '/home/michael/ros2_ws/build/scanner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/scanner

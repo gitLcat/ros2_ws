@@ -1,0 +1,10 @@
+/home/michael/ros2_ws/build/scanner/CMakeFiles/uninstall.dir
+/home/michael/ros2_ws/build/scanner/CMakeFiles/scanner_uninstall.dir
+/home/michael/ros2_ws/build/scanner/CMakeFiles/talker.dir
+/home/michael/ros2_ws/build/scanner/CMakeFiles/test.dir
+/home/michael/ros2_ws/build/scanner/CMakeFiles/edit_cache.dir
+/home/michael/ros2_ws/build/scanner/CMakeFiles/rebuild_cache.dir
+/home/michael/ros2_ws/build/scanner/CMakeFiles/list_install_components.dir
+/home/michael/ros2_ws/build/scanner/CMakeFiles/install.dir
+/home/michael/ros2_ws/build/scanner/CMakeFiles/install/local.dir
+/home/michael/ros2_ws/build/scanner/CMakeFiles/install/strip.dir

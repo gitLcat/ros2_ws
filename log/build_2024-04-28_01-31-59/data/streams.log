@@ -1,0 +1,26 @@
+[0.120s] Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target sub[0m
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/data_sub.cpp.o[0m
+[2.303s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[2.303s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:13:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_subscription<std_msgs::msg::String>(const char [16], std::_Bind_helper<false, void (MinimalSubscriber::*)(const std_msgs::msg::String_<std::allocator<void> >&) const, MinimalSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+[2.303s]    13 |       subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+[2.303s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.303s]    14 | [01;31m[K      "raw_sensor_data", std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+[2.303s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.303s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.304s]                  from [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:3[m[K:
+[2.304s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[2.304s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[2.304s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.304s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.304s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:13:71:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+[2.304s]    13 |       subscription_ = [01;36m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+[2.304s]       |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.304s]    14 | [01;36m[K      "raw_sensor_data", std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+[2.304s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.719s] gmake[2]: *** [CMakeFiles/sub.dir/build.make:76: CMakeFiles/sub.dir/src/data_sub.cpp.o] Error 1
+[2.719s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sub.dir/all] Error 2
+[2.719s] gmake: *** [Makefile:146: all] Error 2
+[2.720s] Invoked command in '/home/michael/ros2_ws/build/data' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4

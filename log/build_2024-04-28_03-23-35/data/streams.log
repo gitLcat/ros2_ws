@@ -1,0 +1,11 @@
+[0.120s] Invoking command in '/home/michael/ros2_ws/build/data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.191s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/data_sub.cpp.o[0m
+[2.323s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Float32&) const[m[K’:
+[2.324s] [01m[K/home/michael/ros2_ws/src/data/src/data_sub.cpp:25:7:[m[K [01;31m[Kerror: [m[Kincrement of member ‘[01m[KMinimalSubscriber::y[m[K’ in read-only object
+[2.324s]    25 |       [01;31m[Ky[m[K++;
+[2.324s]       |       [01;31m[K^[m[K
+[4.478s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/data_sub.cpp.o] Error 1
+[4.478s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[4.478s] gmake: *** [Makefile:146: all] Error 2
+[4.480s] Invoked command in '/home/michael/ros2_ws/build/data' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/data -- -j4 -l4

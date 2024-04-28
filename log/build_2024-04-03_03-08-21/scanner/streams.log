@@ -1,0 +1,42 @@
+[0.127s] Invoking command in '/home/michael/ros2_ws/build/scanner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/michael/ros2_ws/src/scanner -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/scanner
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.231s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.306s] -- Detecting C compile features
+[0.306s] -- Detecting C compile features - done
+[0.309s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.388s] -- Detecting CXX compile features
+[0.389s] -- Detecting CXX compile features - done
+[0.391s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.537s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.612s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.689s] -- Added test 'lint_cmake' to check CMake code style
+[0.690s] -- Added test 'xmllint' to check XML markup files
+[0.691s] -- Configuring done
+[0.693s] -- Generating done
+[0.694s] -- Build files have been written to: /home/michael/ros2_ws/build/scanner
+[0.697s] Invoked command in '/home/michael/ros2_ws/build/scanner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/michael/ros2_ws/src/scanner -DCMAKE_INSTALL_PREFIX=/home/michael/ros2_ws/install/scanner
+[0.699s] Invoking command in '/home/michael/ros2_ws/build/scanner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/scanner -- -j4 -l4
+[0.734s] Invoked command in '/home/michael/ros2_ws/build/scanner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michael/ros2_ws/build/scanner -- -j4 -l4
+[0.761s] Invoking command in '/home/michael/ros2_ws/build/scanner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/scanner
+[0.767s] -- Install configuration: ""
+[0.767s] -- Installing: /home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/package_run_dependencies/scanner
+[0.768s] -- Installing: /home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/parent_prefix_path/scanner
+[0.768s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/environment/ament_prefix_path.sh
+[0.768s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/environment/ament_prefix_path.dsv
+[0.768s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/environment/path.sh
+[0.768s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/environment/path.dsv
+[0.768s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.bash
+[0.768s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.sh
+[0.768s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.zsh
+[0.768s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/local_setup.dsv
+[0.769s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/package.dsv
+[0.769s] -- Installing: /home/michael/ros2_ws/install/scanner/share/ament_index/resource_index/packages/scanner
+[0.769s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/cmake/scannerConfig.cmake
+[0.769s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/cmake/scannerConfig-version.cmake
+[0.769s] -- Installing: /home/michael/ros2_ws/install/scanner/share/scanner/package.xml
+[0.771s] Invoked command in '/home/michael/ros2_ws/build/scanner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michael/ros2_ws/build/scanner
