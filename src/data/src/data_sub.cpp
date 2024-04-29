@@ -19,10 +19,47 @@ class MinimalSubscriber : public rclcpp::Node
   private:
     void topic_callback(const std_msgs::msg::Float32 & msg) const
     {
-      float x = msg.data + 100;
-      RCLCPP_INFO(this->get_logger(), "I heard: '%f'", x);
+      if (y==0){
+      RCLCPP_INFO(this->get_logger(), "1:'%f'", msg.data);
       y++;
-      RCLCPP_INFO(this->get_logger(), "I heard: '%d'", y);
+      } else if(y==1){
+      RCLCPP_INFO(this->get_logger(), "2:'%f'", msg.data);
+      y++;
+      }else if(y==2){
+      RCLCPP_INFO(this->get_logger(), "3:'%f'", msg.data);
+      y++;
+      }else if(y==3){
+      RCLCPP_INFO(this->get_logger(), "4:'%f'", msg.data);
+      y++;
+      }else if(y==4){
+      RCLCPP_INFO(this->get_logger(), "5:'%f'", msg.data);
+      y++;
+      }else if(y==5){
+      RCLCPP_INFO(this->get_logger(), "6:'%f'", msg.data);
+      y++;
+      }else if(y==6){
+      RCLCPP_INFO(this->get_logger(), "7:'%f'", msg.data);
+      y++;
+      }else if(y==7){
+      RCLCPP_INFO(this->get_logger(), "8:'%f'", msg.data);
+      y++;
+      }else if(y==8){
+      RCLCPP_INFO(this->get_logger(), "9:'%f'", msg.data);
+      y++;
+      }else if(y==9){
+      RCLCPP_INFO(this->get_logger(), "10:'%f'", msg.data);
+      y++;
+      }else if(y==10){
+      RCLCPP_INFO(this->get_logger(), "11:'%f'", msg.data);
+      y++;
+      }else if(y==11){
+      RCLCPP_INFO(this->get_logger(), "12:'%f'", msg.data);
+      y++;
+      }else if(y==12){
+      RCLCPP_INFO(this->get_logger(), "13:'%f'", msg.data);
+      y=0;
+      }
+
     }
     rclcpp::Subscription<std_msgs::msg::Float32>::SharedPtr subscription_;
 };
