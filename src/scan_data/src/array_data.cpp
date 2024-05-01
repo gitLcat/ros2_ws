@@ -1,4 +1,7 @@
+#include <chrono>
+#include <functional>
 #include <memory>
+#include <string>
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/float32.hpp"
@@ -7,6 +10,10 @@
 using std::placeholders::_1;
 using namespace std;
  int y = 0;
+ float value;
+
+ float n = 1079;
+ float arr[1079];
 class ReadLaser : public rclcpp::Node
 {
   public:
@@ -20,8 +27,6 @@ class ReadLaser : public rclcpp::Node
   private:
     void topic_callback(const sensor_msgs::msg::LaserScan & msg) const
     {
-      float n = 1079;
-      float arr[1079];
       for(int i = 0; i <= n ; i++){
           arr[i] = msg.ranges[i];
       }
@@ -37,6 +42,7 @@ class ReadLaser : public rclcpp::Node
       {
           min = arr[i];
       }
+      value = min;
   }
 
 
@@ -44,6 +50,7 @@ class ReadLaser : public rclcpp::Node
     }
     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr subscription_;
 };
+
 
 int main(int argc, char * argv[])
 {
