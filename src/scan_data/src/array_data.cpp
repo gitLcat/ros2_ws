@@ -11,7 +11,7 @@ using std::placeholders::_1;
 using namespace std;
  int y = 0;
  float value;
-
+ int count = 0;
  float n = 1079;
  float arr[1079];
 class ReadLaser : public rclcpp::Node
@@ -22,6 +22,10 @@ class ReadLaser : public rclcpp::Node
     {
       subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
       "/scan", 10, std::bind(&ReadLaser::topic_callback, this, _1));
+      
+      publisher_ = this->create_publisher<std_msgs::msg::Float32>("value", 10);
+      timer_ = this->create_wall_timer(
+      500ms, std::bind(&ReadLaser::timer_callback, this));
     }
 
   private:
@@ -45,10 +49,19 @@ class ReadLaser : public rclcpp::Node
       value = min;
   }
 
-
       RCLCPP_INFO(this->get_logger(), "I heard: '%f'",min);
     }
+        void timer_callback()
+    {
+      auto message = std_msgs::msg::Float32();
+      message.data = value;
+      RCLCPP_INFO(this->get_logger(), "Publishing: '%f'", value);
+      publisher_->publish(message);
+    }
+    rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr subscription_;
+    rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr publisher_;
+    size_t count_;
 };
 
 
